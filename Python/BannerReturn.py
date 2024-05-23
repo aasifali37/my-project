@@ -12,7 +12,7 @@ def retBanner(ip, port):
         return "Connection timed out"
     except Exception as e:
         return f"Error: {e}"
-
+    
 def main():
     port = 443
     ip = "8.8.8.8"
