@@ -2,7 +2,7 @@ from socket import socket, AF_INET, SOCK_STREAM, setdefaulttimeout
 from termcolor import colored
 
 ip = "8.8.8.8"
-port = 4
+port = 53
 setdefaulttimeout(2)
 
 try:
